@@ -226,7 +226,7 @@ header p {
     padding: 0 20px 12vh;
 }
 
-#home .btn {
+header .btn {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 25px;
@@ -239,19 +239,19 @@ header p {
     outline: 0;
 }
 
-#home .btn:hover {
+header .btn:hover {
     color: #fff;
     background: #1a79ad;
     outline: 0;
 }
 
-#home .btn:after {
+header .btn:after {
     color: #fff;
     background: #1a79ad;
     outline: 0;
 }
 
-#home .btn:active {
+header .btn:active {
     color: #fff;
     background: #1a79ad;
     outline: 0;
@@ -730,7 +730,8 @@ footer i {
     }
     .navbar-brand img {
         width: 100px;
-        padding-top: 0px;
+        padding: 0;
+        margin-top: -10px
     }
     header h1 {
         padding-top: 10vh;
